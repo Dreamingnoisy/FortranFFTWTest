@@ -38,7 +38,7 @@ In the CLI, type `python fft.py` to read `corr.dat` and output spectrum
 
 
 # Input files
-`corr.dat`: 3 clowns data of correlation time, real part of correlation function and imaginary part of correlation function, respectively
+`corr.dat`: 3 columns data of correlation time, real part of correlation function and imaginary part of correlation function, respectively
 
 # Output files
 `spec.dat`: Fortran generated FFT results 
