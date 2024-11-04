@@ -2,19 +2,19 @@
 Example codes to test Fortran FFTW3
 
 # Fortran Source Files
-`dft.f90`: read `corr.dat`, generate correlation function with Hermitian symmetry, and do DFT
-`utils.f90`: subroutines for utility
-`global_constants.f90`: input and ouput files manager
+`dft.f90`: read `corr.dat`, generate correlation function with Hermitian symmetry, and do DFT 
+`utils.f90`: subroutines for utility 
+`global_constants.f90`: input and ouput files manager 
 
 # Python Files
-`fft.py`: do same stuff as `dft.f90`
-`CORRGEN.py`: randomly generate `corr.dat`
+`fft.py`: do same stuff as `dft.f90` 
+`CORRGEN.py`: randomly generate `corr.dat` 
 
 # Fortran codes installation 
 ## Dependence
-`gfortran`: my local version is 9.5
-`fftw3`: see FFTW3 official site on how to install
-`make`
+`gfortran`: my local version is 9.5 
+`fftw3`: see FFTW3 official site on how to install 
+`make` 
 
 ## Install steps
 1. Modify the `Makefile` and make sure the correct FFTW3 installation path is used
@@ -41,8 +41,8 @@ In the CLI, type `python fft.py` to read `corr.dat` and output spectrum
 `corr.dat`: 3 clowns data of correlation time, real part of correlation function and imaginary part of correlation function, respectively
 
 # Output files
-`spec.dat`: Fortran generated FFT results
-`spec_forward_from_np.dat`: Numpy generated FFT results
+`spec.dat`: Fortran generated FFT results 
+`spec_forward_from_np.dat`: Numpy generated FFT results 
 
 
 
