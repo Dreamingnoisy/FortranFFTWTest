@@ -2,9 +2,9 @@
 Example codes to test Fortran FFTW3
 
 # Fortran Source Files
-`dft.f90`: read `corr.dat`, generate correlation function with Hermitian symmetry, and do DFT 
-`utils.f90`: subroutines for utility 
-`global_constants.f90`: input and ouput files manager 
+`dft.f90`: read `corr.dat`, generate correlation function with Hermitian symmetry, and do DFT  
+`utils.f90`: subroutines for utility  
+`global_constants.f90`: input and ouput files manager  
 
 # Python Files
 `fft.py`: do same stuff as `dft.f90` 
