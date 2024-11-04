@@ -1,0 +1,10 @@
+ FFTW3 numerical test
+ Reading correlation function from file corr.dat
+ Total number of lines        3614
+ Finished
+ Reconstrut correlation function with size 2*N
+ Reconstrut Finished
+ Track correlation function
+ Save correlation function to filecorr_from_fortran.dat         
+ Call FFTW3 for test
+ Printing spectrum to file 'spec.dat'
